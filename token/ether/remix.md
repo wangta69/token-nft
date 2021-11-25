@@ -268,17 +268,17 @@ PONDOL 토큰이 정상적으로 확인되었습니다.
 MetaMask에도 내 토큰이 들어와 있는지 확인해 볼께요
 보이지 않을 경우 token을 추가해 주시면 됩니다.
 아래 "import tokens"를 클릭하시고
+
 ![Step3-7](./assets/images/step3-7.png)
 
 토큰계약주소 입력
 [Add Custom Token] 클릭
-
+- - -
 ![Step3-8](./assets/images/step3-8.png)
-
+- - -
 다시 한번 [Import Token] 클릭
 ![Step3-9](./assets/images/step3-9.png)
-
+- - -
 다시 확인하시 PONDOL 토큰이 완성되었습니다.
 ![Step3-10](./assets/images/step3-10.png)
-
-
+- - -
