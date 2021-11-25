@@ -260,22 +260,25 @@ MetaMask에서 배포에 관련한 비용이 뜨 "확인"을 누르면 이더네
 ##### 트랜젝션확인
 현재는 이더리움 메인 네트워크가 아니라 Ropsten 네트워크 이므로 아래 url로 접속하셨어 Contrace Address를 확인합니다.
 [ https://ropsten.etherscan.io ](https://ropsten.etherscan.io)
+
 PONDOL 토큰이 정상적으로 확인되었습니다.
 ![Step3-6](./assets/images/step3-6.png)
+
+##### MetaMask 확인
 MetaMask에도 내 토큰이 들어와 있는지 확인해 볼께요
 보이지 않을 경우 token을 추가해 주시면 됩니다.
 아래 "import tokens"를 클릭하시고
 ![Step3-7](./assets/images/step3-7.png)
 
-<p>토큰계약주소 입력</p>
-<p>Add Custom Token] 클릭</p>
+토큰계약주소 입력
+[Add Custom Token] 클릭
 
 ![Step3-8](./assets/images/step3-8.png)
 
-<p>다시한번 [Import Token] 클릭</p>
+다시 한번 [Import Token] 클릭
 ![Step3-9](./assets/images/step3-9.png)
 
-<p>다시 확인하시 PONDOL 토큰이 완성되었습니다.</p>
+다시 확인하시 PONDOL 토큰이 완성되었습니다.
 ![Step3-10](./assets/images/step3-10.png)
 
 
