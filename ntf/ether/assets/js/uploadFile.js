@@ -6,7 +6,7 @@ const FormData = require("form-data");
 const pinFileToIPFS = async () => {
     const url = `https://api.pinata.cloud/pinning/pinFileToIPFS`;
     let data = new FormData();
-    data.append("file", fs.createReadStream("./1590589755463.gif"));
+    data.append("file", fs.createReadStream("../images/pondol-nft.gif"));
     const res = await axios.post(url, data, {
         maxContentLength: "Infinity",
         headers: {

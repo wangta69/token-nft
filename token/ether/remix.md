@@ -272,6 +272,7 @@ MetaMask에도 내 토큰이 들어와 있는지 확인해 볼께요
 ![Step3-7](./assets/images/step3-7.png)
 
 토큰계약주소 입력
+계약주소 : 0xf7e566884187c89af8d2898ee6864ff4d4422bf0 (위실행마다 다른 계약주소가 생성됨)
 [Add Custom Token] 클릭
 - - -
 ![Step3-8](./assets/images/step3-8.png)
