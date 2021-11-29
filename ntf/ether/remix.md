@@ -73,6 +73,7 @@ MetaMask에서 Sign
 ![pinata2.png](./assets/images/ntf-create1-5.png)
 
 Deployed Contract 섹션에 현재 배포한 Contract가 리스트 됩니다.
+리믹스는 파란색(조회), 주황색(트랜잭션)으로 기능을 구분
 ![pinata2.png](./assets/images/ntf-create1-6.png)
 
 Mint 탭을 찾아 열기를 한 후
