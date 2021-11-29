@@ -1,15 +1,20 @@
-# NFT 만들기
+# NFT 만들기 [erc721]
 참조 예제는 https://www.quicknode.com/guides/solidity/how-to-create-and-deploy-an-erc-721-nft
 
 
-## IPFS에 NFT 관련 컨텐츠 올리기
-- 다양한 방법이 있어나 https://app.pinata.cloud/ 에서 이미지를 올려보겠습니다.
+## NFT Metadata 생성
+메타데이타는 실제적인 컨텐츠(이미지나 동영상) 와 이것을 참조하는 Json 파일 두가지로 나주어 집니다.
+
+### IPFS 에 이미지 올리기
+- ipfs에 이미지를 전송하는 방법 다양하나 [Pinata](https://app.pinata.cloud/) 에서 이미지를 올려보겠습니다.
 - 이미지 업로드에대해서는 별도의 설명은 하지 않겠습니다.
 
 
 ![pinata1.png](./assets/images/pinata1.png)
-cid : QmSyNKS792FkY3zFL3QWYMCFea4kt2ccUHc8Qf7RvnAzNg
+cid (Hash Code) : QmSyNKS792FkY3zFL3QWYMCFea4kt2ccUHc8Qf7RvnAzNg
 
+
+### JSON 파일 처리
 CID를 카피한 후 JSON 파일을 만듦니다.
 
 pondol-nft.json
@@ -18,6 +23,7 @@ pondol-nft.json
     "name": "My First NFT Art",
     "description": "This image shows the true nature of NFT.",
     "image": "https://gateway.pinata.cloud/ipfs/QmSyNKS792FkY3zFL3QWYMCFea4kt2ccUHc8Qf7RvnAzNg",
+    "tokenId": 1,
 }
 ```
 이미지와 마찬가지로 이것도 업로드한 후 url을 획득합니다.
@@ -86,6 +92,7 @@ Deployed Contract 섹션에tj tokenURI 항목에 _tokenId 에 Mint에서 넣은 
 ![pinata2.png](./assets/images/ntf-create1-9.png)
 
 https://ropsten.etherscan.io/ 에서 정상적으로 처리되었는지 확인 해 보겠습니다.
+https://ropsten.etherscan.io/tx/0x51ea45c3bcc04f0c894dba2d6422b40a55e5ea3f54b500837402ed62a734218e
 ![pinata2.png](./assets/images/ntf-create1-10.png)
 ![pinata2.png](./assets/images/ntf-create1-11.png)
 ![pinata2.png](./assets/images/ntf-create1-12.png)
